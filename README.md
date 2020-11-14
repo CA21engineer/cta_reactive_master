@@ -1,0 +1,2 @@
+# cta_reactive_master
+CA Tech AccelでiOSアプリ開発におけるReactiveを理解していく学習リポジトリ
