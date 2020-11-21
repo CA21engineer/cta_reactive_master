@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -165,7 +165,6 @@
 				66491872529817495C7A15B5 /* Pods-CtaReactiveMasterTests.debug.xcconfig */,
 				3FC7953F071F701FCC5EC101 /* Pods-CtaReactiveMasterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
