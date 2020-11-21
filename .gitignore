@@ -6,4 +6,8 @@ project.xcworkspace
 .DS_Store
 *.xcworkspace/xcuserdata/*
 xcuserdata
-*/Pods/*
+/Pods/*
+
+# Bundler
+.bundle/
+vendor/

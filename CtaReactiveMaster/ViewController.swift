@@ -9,7 +9,7 @@ import UIKit
 
 final class ViewController: UIViewController {
 
-    // // MARK: - Lifecycle Method
+    // MARK: - Lifecycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
