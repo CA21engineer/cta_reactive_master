@@ -7,7 +7,3 @@ project.xcworkspace
 *.xcworkspace/xcuserdata/*
 xcuserdata
 */Pods/*
-*/Carthage/Checkouts/*i
-*/Carthage/Checkouts
-*/Carthage/Build/*
-*/Carthage/Build
