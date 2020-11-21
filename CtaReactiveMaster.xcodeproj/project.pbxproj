@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24D3B128FCAC38C489903D91 /* Pods_CtaReactiveMaster_CtaReactiveMasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3A42BAEA28AAC2E9F16AE2 /* Pods_CtaReactiveMaster_CtaReactiveMasterUITests.framework */; };
 		82796DEF2569247500443E2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82796DED2569247500443E2F /* HomeViewController.swift */; };
 		82796DF02569247500443E2F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82796DEE2569247500443E2F /* HomeViewController.xib */; };
 		D848D49C2568190F008CA221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D49B2568190F008CA221 /* AppDelegate.swift */; };
@@ -15,20 +14,12 @@
 		D848D4A525681910008CA221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D848D4A425681910008CA221 /* Assets.xcassets */; };
 		D848D4A825681910008CA221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D848D4A625681910008CA221 /* LaunchScreen.storyboard */; };
 		D848D4B325681910008CA221 /* CtaReactiveMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D4B225681910008CA221 /* CtaReactiveMasterTests.swift */; };
-		D848D4BE25681910008CA221 /* CtaReactiveMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D4BD25681910008CA221 /* CtaReactiveMasterUITests.swift */; };
 		DC79E6B5D95959600507DDB6 /* Pods_CtaReactiveMasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705E3A12E8A77B5A88182FE7 /* Pods_CtaReactiveMasterTests.framework */; };
 		F2C1BEF080A682548998FFEF /* Pods_CtaReactiveMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C60FABF91AC1EE82A06B299 /* Pods_CtaReactiveMaster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D848D4AF25681910008CA221 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D848D4902568190F008CA221 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D848D4972568190F008CA221;
-			remoteInfo = CtaReactiveMaster;
-		};
-		D848D4BA25681910008CA221 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D848D4902568190F008CA221 /* Project object */;
 			proxyType = 1;
@@ -57,9 +48,6 @@
 		D848D4AE25681910008CA221 /* CtaReactiveMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CtaReactiveMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D848D4B225681910008CA221 /* CtaReactiveMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CtaReactiveMasterTests.swift; sourceTree = "<group>"; };
 		D848D4B425681910008CA221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D848D4B925681910008CA221 /* CtaReactiveMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CtaReactiveMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D848D4BD25681910008CA221 /* CtaReactiveMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CtaReactiveMasterUITests.swift; sourceTree = "<group>"; };
-		D848D4BF25681910008CA221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40C1AAD478EC4F97469E6AF /* Pods-CtaReactiveMaster-CtaReactiveMasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CtaReactiveMaster-CtaReactiveMasterUITests.release.xcconfig"; path = "Target Support Files/Pods-CtaReactiveMaster-CtaReactiveMasterUITests/Pods-CtaReactiveMaster-CtaReactiveMasterUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,14 +68,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D848D4B625681910008CA221 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24D3B128FCAC38C489903D91 /* Pods_CtaReactiveMaster_CtaReactiveMasterUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,8 +84,7 @@
 		82796DE5256923ED00443E2F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D848D4A925681910008CA221 /* Info.plist */,
-				D848D4A625681910008CA221 /* LaunchScreen.storyboard */,
+				82796E132569354A00443E2F /* Home */,
 				D848D49D2568190F008CA221 /* SceneDelegate.swift */,
 				D848D49B2568190F008CA221 /* AppDelegate.swift */,
 			);
@@ -116,10 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				D848D4A425681910008CA221 /* Assets.xcassets */,
-				82796DED2569247500443E2F /* HomeViewController.swift */,
-				82796DEE2569247500443E2F /* HomeViewController.xib */,
+				D848D4A925681910008CA221 /* Info.plist */,
+				D848D4A625681910008CA221 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		82796E132569354A00443E2F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				82796DEE2569247500443E2F /* HomeViewController.xib */,
+				82796DED2569247500443E2F /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		D848D48F2568190F008CA221 = {
@@ -127,7 +115,6 @@
 			children = (
 				D848D49A2568190F008CA221 /* CtaReactiveMaster */,
 				D848D4B125681910008CA221 /* CtaReactiveMasterTests */,
-				D848D4BC25681910008CA221 /* CtaReactiveMasterUITests */,
 				D848D4992568190F008CA221 /* Products */,
 				E05706F6F9CF6A9382215A85 /* Pods */,
 				75F65BD4681690078A8C6410 /* Frameworks */,
@@ -139,7 +126,6 @@
 			children = (
 				D848D4982568190F008CA221 /* CtaReactiveMaster.app */,
 				D848D4AE25681910008CA221 /* CtaReactiveMasterTests.xctest */,
-				D848D4B925681910008CA221 /* CtaReactiveMasterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,15 +146,6 @@
 				D848D4B425681910008CA221 /* Info.plist */,
 			);
 			path = CtaReactiveMasterTests;
-			sourceTree = "<group>";
-		};
-		D848D4BC25681910008CA221 /* CtaReactiveMasterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D848D4BD25681910008CA221 /* CtaReactiveMasterUITests.swift */,
-				D848D4BF25681910008CA221 /* Info.plist */,
-			);
-			path = CtaReactiveMasterUITests;
 			sourceTree = "<group>";
 		};
 		E05706F6F9CF6A9382215A85 /* Pods */ = {
@@ -225,26 +202,6 @@
 			productReference = D848D4AE25681910008CA221 /* CtaReactiveMasterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D848D4B825681910008CA221 /* CtaReactiveMasterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D848D4C825681910008CA221 /* Build configuration list for PBXNativeTarget "CtaReactiveMasterUITests" */;
-			buildPhases = (
-				988EDED62095D30BE61775A5 /* [CP] Check Pods Manifest.lock */,
-				D848D4B525681910008CA221 /* Sources */,
-				D848D4B625681910008CA221 /* Frameworks */,
-				D848D4B725681910008CA221 /* Resources */,
-				6B5769D03DC05DBD103299D7 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D848D4BB25681910008CA221 /* PBXTargetDependency */,
-			);
-			name = CtaReactiveMasterUITests;
-			productName = CtaReactiveMasterUITests;
-			productReference = D848D4B925681910008CA221 /* CtaReactiveMasterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -258,10 +215,6 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					D848D4AD25681910008CA221 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = D848D4972568190F008CA221;
-					};
-					D848D4B825681910008CA221 = {
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = D848D4972568190F008CA221;
 					};
@@ -282,7 +235,6 @@
 			targets = (
 				D848D4972568190F008CA221 /* CtaReactiveMaster */,
 				D848D4AD25681910008CA221 /* CtaReactiveMasterTests */,
-				D848D4B825681910008CA221 /* CtaReactiveMasterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,55 +257,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D848D4B725681910008CA221 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6B5769D03DC05DBD103299D7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CtaReactiveMaster-CtaReactiveMasterUITests/Pods-CtaReactiveMaster-CtaReactiveMasterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CtaReactiveMaster-CtaReactiveMasterUITests/Pods-CtaReactiveMaster-CtaReactiveMasterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CtaReactiveMaster-CtaReactiveMasterUITests/Pods-CtaReactiveMaster-CtaReactiveMasterUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		988EDED62095D30BE61775A5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CtaReactiveMaster-CtaReactiveMasterUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AEA77BCB9F513A29172AD320 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -436,14 +342,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D848D4B525681910008CA221 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D848D4BE25681910008CA221 /* CtaReactiveMasterUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -451,11 +349,6 @@
 			isa = PBXTargetDependency;
 			target = D848D4972568190F008CA221 /* CtaReactiveMaster */;
 			targetProxy = D848D4AF25681910008CA221 /* PBXContainerItemProxy */;
-		};
-		D848D4BB25681910008CA221 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D848D4972568190F008CA221 /* CtaReactiveMaster */;
-			targetProxy = D848D4BA25681910008CA221 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -595,7 +488,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CtaReactiveMaster/Sources/Info.plist;
+				INFOPLIST_FILE = CtaReactiveMaster/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,7 +509,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CtaReactiveMaster/Sources/Info.plist;
+				INFOPLIST_FILE = CtaReactiveMaster/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -681,52 +574,6 @@
 			};
 			name = Release;
 		};
-		D848D4C925681910008CA221 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82F66DCE1A668CAA1224DAFF /* Pods-CtaReactiveMaster-CtaReactiveMasterUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CtaReactiveMasterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.CtaReactiveMasterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CtaReactiveMaster;
-			};
-			name = Debug;
-		};
-		D848D4CA25681910008CA221 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F40C1AAD478EC4F97469E6AF /* Pods-CtaReactiveMaster-CtaReactiveMasterUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CtaReactiveMasterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.CtaReactiveMasterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CtaReactiveMaster;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -753,15 +600,6 @@
 			buildConfigurations = (
 				D848D4C625681910008CA221 /* Debug */,
 				D848D4C725681910008CA221 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D848D4C825681910008CA221 /* Build configuration list for PBXNativeTarget "CtaReactiveMasterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D848D4C925681910008CA221 /* Debug */,
-				D848D4CA25681910008CA221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
