@@ -32,3 +32,10 @@ make setup
 | - | (時間があったら)カスタマイズする(検索機能の追加(filter処理),差分更新で実装するなど) |
 
 *スケジュールは暫定的なものなので必要があれば随時更新する予定です。*
+
+## CODING RULES
+
+- base branchへの直接pushは禁止(いかなる場合でもPull Requestを作成し、担当の21卒学生からのApproveをもらうまではmergeしない)
+- AutoLayoutを利用する(ViewController作成時はStoryboardではなく、xibを利用する)
+- ライブラリを追加する際には基本的にCocoaPodsを利用する(CocoaPodsに対応してないものを利用する場合は相談してください)
+- APIのレスポンスを受け取るときは `Decodable`で処理する
