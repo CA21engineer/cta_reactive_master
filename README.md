@@ -16,6 +16,8 @@ make setup
 
 2. slackのGitHubの通知チャンネルに連携する
 
+> slackの`#ios_コロンビア_github`にて`/github subscribe https://github.com/{GITHUB_USER_ID}/cta_reactive_master reviews,comments`を叩く
+
 3. スケジュールに沿って開発を進め、随時PRを作成し、Approveをもらい次第Forkしたレポジトリにmergeする
 
 ## Schedule
