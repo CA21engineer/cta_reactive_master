@@ -39,3 +39,11 @@ make setup
 - AutoLayoutを利用する(ViewController作成時はStoryboardではなく、xibを利用する)
 - ライブラリを追加する際には基本的にCocoaPodsを利用する(CocoaPodsに対応してないものを利用する場合は相談してください)
 - APIのレスポンスを受け取るときは `Decodable`で処理する
+
+## ATENDEES
+
+- [yamanetaisei](https://github.com/yamanetaisei)  
+Repo URL: https://github.com/yamanetaisei/cta_reactive_master
+
+- [Yoshitsugu-Antony-Kambara](https://github.com/Yoshitsugu-Antony-Kambara)  
+Repo URL: https://github.com/Yoshitsugu-Antony-Kambara/cta_reactive_master
